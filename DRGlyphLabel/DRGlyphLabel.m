@@ -42,6 +42,7 @@
 
 - (void)renderText
 {
+    CGFloat accumulatedWidth = 0;
     unichar lastCharId = 0;
 	CGSize size = CGSizeZero;
     CGPoint pos = CGPointZero;
@@ -63,26 +64,36 @@
             pos.x = 0;
         } else {
 			DRGlyphFontChar *character = [self.font character:charId];
-			
 			UIImageView *letterImageView = [[UIImageView alloc] initWithImage:character.image];
 			letterImageView.frame = CGRectMake((pos.x + character.offsetX) / scaleFactor,
 											   (pos.y + character.offsetY) / scaleFactor,
 											   character.width / scaleFactor,
 											   character.height / scaleFactor);
 			[self addSubview:letterImageView];
+            pos.x += character.advanceX * (_spacingRatio || 1.0) + [self.font kerningBetween:lastCharId and:charId];
             
-            pos.x += character.advanceX + [self.font kerningBetween:lastCharId and:charId];
             
             if (size.width < pos.x) {
                 size.width = pos.x / scaleFactor;
 			}
         }
+       
         lastCharId = charId;
     }
-	
+ 
 	self.textSize = size;
+  
+    if(self.aligment == right) {
+        CGFloat delta = MAX(0,self.frame.size.width - self.textSize.width);
+        for (UIView *view in self.subviews) {
+            view.frame = CGRectMake(view.frame.origin.x+delta, view.frame.origin.y, view.frame.size.width, view.frame.size.height);
+        }
+    }
 }
-
+-(void) setSpacingRatio:(CGFloat)spacingRatio {
+    _spacingRatio = spacingRatio;
+    [self renderText];
+}
 - (void)sizeToFit
 {
 	CGRect frame = self.frame;

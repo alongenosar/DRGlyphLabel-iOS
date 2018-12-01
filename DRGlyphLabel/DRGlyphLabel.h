@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef enum {
+    left = 0,
+    right = 1
+    
+} DRGlyphAlignment;
 @class DRGlyphFont;
 
 /**
@@ -24,5 +28,15 @@
  *  Displayed text
  */
 @property (nonatomic, strong) NSString *text;
+
+/**
+ *  Align text
+ */
+@property (nonatomic, assign) DRGlyphAlignment aligment;
+
+/**
+ *  Spacing Ratio
+ */
+@property (nonatomic, assign) CGFloat spacingRatio;
 
 @end
