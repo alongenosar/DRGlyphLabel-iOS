@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D254F61521B4106300D5000E /* DRGlyphFontChar.m in Sources */ = {isa = PBXBuildFile; fileRef = D254F60F21B4106300D5000E /* DRGlyphFontChar.m */; };
+		D254F61621B4106300D5000E /* DRGlyphFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D254F61021B4106300D5000E /* DRGlyphFont.m */; };
+		D254F61721B4106300D5000E /* DRGlyphLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D254F61121B4106300D5000E /* DRGlyphLabel.m */; };
+		D254F61821B4106300D5000E /* DRGlyphFontChar.h in Headers */ = {isa = PBXBuildFile; fileRef = D254F61221B4106300D5000E /* DRGlyphFontChar.h */; };
+		D254F61921B4106300D5000E /* DRGlyphFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D254F61321B4106300D5000E /* DRGlyphFont.h */; };
+		D254F61A21B4106300D5000E /* DRGlyphLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D254F61421B4106300D5000E /* DRGlyphLabel.h */; };
 		D275245521B3E1D0004CD964 /* DRGlyphLabel_Carthage.h in Headers */ = {isa = PBXBuildFile; fileRef = D275245321B3E1D0004CD964 /* DRGlyphLabel_Carthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D275246221B3E1E4004CD964 /* DRGlyphFontChar.m in Sources */ = {isa = PBXBuildFile; fileRef = D275245C21B3E1E4004CD964 /* DRGlyphFontChar.m */; };
-		D275246321B3E1E4004CD964 /* DRGlyphFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D275245D21B3E1E4004CD964 /* DRGlyphFont.m */; };
-		D275246421B3E1E4004CD964 /* DRGlyphLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D275245E21B3E1E4004CD964 /* DRGlyphLabel.m */; };
-		D275246521B3E1E4004CD964 /* DRGlyphFontChar.h in Headers */ = {isa = PBXBuildFile; fileRef = D275245F21B3E1E4004CD964 /* DRGlyphFontChar.h */; };
-		D275246621B3E1E4004CD964 /* DRGlyphFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D275246021B3E1E4004CD964 /* DRGlyphFont.h */; };
-		D275246721B3E1E4004CD964 /* DRGlyphLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D275246121B3E1E4004CD964 /* DRGlyphLabel.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D275245021B3E1D0004CD964 /* DRGlyphLabel_Carthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRGlyphLabel_Carthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D254F60F21B4106300D5000E /* DRGlyphFontChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGlyphFontChar.m; sourceTree = "<group>"; };
+		D254F61021B4106300D5000E /* DRGlyphFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGlyphFont.m; sourceTree = "<group>"; };
+		D254F61121B4106300D5000E /* DRGlyphLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGlyphLabel.m; sourceTree = "<group>"; };
+		D254F61221B4106300D5000E /* DRGlyphFontChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGlyphFontChar.h; sourceTree = "<group>"; };
+		D254F61321B4106300D5000E /* DRGlyphFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGlyphFont.h; sourceTree = "<group>"; };
+		D254F61421B4106300D5000E /* DRGlyphLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGlyphLabel.h; sourceTree = "<group>"; };
+		D275245021B3E1D0004CD964 /* DRGlyphLabel_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRGlyphLabel_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D275245321B3E1D0004CD964 /* DRGlyphLabel_Carthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRGlyphLabel_Carthage.h; sourceTree = "<group>"; };
 		D275245421B3E1D0004CD964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D275245C21B3E1E4004CD964 /* DRGlyphFontChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGlyphFontChar.m; sourceTree = "<group>"; };
-		D275245D21B3E1E4004CD964 /* DRGlyphFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGlyphFont.m; sourceTree = "<group>"; };
-		D275245E21B3E1E4004CD964 /* DRGlyphLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRGlyphLabel.m; sourceTree = "<group>"; };
-		D275245F21B3E1E4004CD964 /* DRGlyphFontChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGlyphFontChar.h; sourceTree = "<group>"; };
-		D275246021B3E1E4004CD964 /* DRGlyphFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGlyphFont.h; sourceTree = "<group>"; };
-		D275246121B3E1E4004CD964 /* DRGlyphLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRGlyphLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D254F60E21B4106300D5000E /* DRGlyphLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D254F60F21B4106300D5000E /* DRGlyphFontChar.m */,
+				D254F61021B4106300D5000E /* DRGlyphFont.m */,
+				D254F61121B4106300D5000E /* DRGlyphLabel.m */,
+				D254F61221B4106300D5000E /* DRGlyphFontChar.h */,
+				D254F61321B4106300D5000E /* DRGlyphFont.h */,
+				D254F61421B4106300D5000E /* DRGlyphLabel.h */,
+			);
+			path = DRGlyphLabel;
+			sourceTree = SOURCE_ROOT;
+		};
 		D275244621B3E1D0004CD964 = {
 			isa = PBXGroup;
 			children = (
@@ -50,7 +63,7 @@
 		D275245121B3E1D0004CD964 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D275245021B3E1D0004CD964 /* DRGlyphLabel_Carthage.framework */,
+				D275245021B3E1D0004CD964 /* DRGlyphLabel_IOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,25 +71,11 @@
 		D275245221B3E1D0004CD964 /* DRGlyphLabel-Carthage */ = {
 			isa = PBXGroup;
 			children = (
-				D275245B21B3E1E4004CD964 /* DRGlyphLabel */,
+				D254F60E21B4106300D5000E /* DRGlyphLabel */,
 				D275245321B3E1D0004CD964 /* DRGlyphLabel_Carthage.h */,
 				D275245421B3E1D0004CD964 /* Info.plist */,
 			);
 			path = "DRGlyphLabel-Carthage";
-			sourceTree = "<group>";
-		};
-		D275245B21B3E1E4004CD964 /* DRGlyphLabel */ = {
-			isa = PBXGroup;
-			children = (
-				D275245C21B3E1E4004CD964 /* DRGlyphFontChar.m */,
-				D275245D21B3E1E4004CD964 /* DRGlyphFont.m */,
-				D275245E21B3E1E4004CD964 /* DRGlyphLabel.m */,
-				D275245F21B3E1E4004CD964 /* DRGlyphFontChar.h */,
-				D275246021B3E1E4004CD964 /* DRGlyphFont.h */,
-				D275246121B3E1E4004CD964 /* DRGlyphLabel.h */,
-			);
-			name = DRGlyphLabel;
-			path = ../../DRGlyphLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +85,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D275246621B3E1E4004CD964 /* DRGlyphFont.h in Headers */,
-				D275246521B3E1E4004CD964 /* DRGlyphFontChar.h in Headers */,
-				D275246721B3E1E4004CD964 /* DRGlyphLabel.h in Headers */,
+				D254F61921B4106300D5000E /* DRGlyphFont.h in Headers */,
+				D254F61821B4106300D5000E /* DRGlyphFontChar.h in Headers */,
+				D254F61A21B4106300D5000E /* DRGlyphLabel.h in Headers */,
 				D275245521B3E1D0004CD964 /* DRGlyphLabel_Carthage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,9 +95,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D275244F21B3E1D0004CD964 /* DRGlyphLabel-Carthage */ = {
+		D275244F21B3E1D0004CD964 /* DRGlyphLabel-IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D275245821B3E1D0004CD964 /* Build configuration list for PBXNativeTarget "DRGlyphLabel-Carthage" */;
+			buildConfigurationList = D275245821B3E1D0004CD964 /* Build configuration list for PBXNativeTarget "DRGlyphLabel-IOS" */;
 			buildPhases = (
 				D275244B21B3E1D0004CD964 /* Headers */,
 				D275244C21B3E1D0004CD964 /* Sources */,
@@ -109,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = "DRGlyphLabel-Carthage";
+			name = "DRGlyphLabel-IOS";
 			productName = "DRGlyphLabel-Carthage";
-			productReference = D275245021B3E1D0004CD964 /* DRGlyphLabel_Carthage.framework */;
+			productReference = D275245021B3E1D0004CD964 /* DRGlyphLabel_IOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D275244A21B3E1D0004CD964 /* Build configuration list for PBXProject "DRGlyphLabel-Carthage" */;
+			buildConfigurationList = D275244A21B3E1D0004CD964 /* Build configuration list for PBXProject "DRGlyphLabel-IOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D275244F21B3E1D0004CD964 /* DRGlyphLabel-Carthage */,
+				D275244F21B3E1D0004CD964 /* DRGlyphLabel-IOS */,
 			);
 		};
 /* End PBXProject section */
@@ -160,9 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D275246221B3E1E4004CD964 /* DRGlyphFontChar.m in Sources */,
-				D275246421B3E1E4004CD964 /* DRGlyphLabel.m in Sources */,
-				D275246321B3E1E4004CD964 /* DRGlyphFont.m in Sources */,
+				D254F61521B4106300D5000E /* DRGlyphFontChar.m in Sources */,
+				D254F61721B4106300D5000E /* DRGlyphLabel.m in Sources */,
+				D254F61621B4106300D5000E /* DRGlyphFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D275244A21B3E1D0004CD964 /* Build configuration list for PBXProject "DRGlyphLabel-Carthage" */ = {
+		D275244A21B3E1D0004CD964 /* Build configuration list for PBXProject "DRGlyphLabel-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D275245621B3E1D0004CD964 /* Debug */,
@@ -345,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D275245821B3E1D0004CD964 /* Build configuration list for PBXNativeTarget "DRGlyphLabel-Carthage" */ = {
+		D275245821B3E1D0004CD964 /* Build configuration list for PBXNativeTarget "DRGlyphLabel-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D275245921B3E1D0004CD964 /* Debug */,

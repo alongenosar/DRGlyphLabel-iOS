@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D275244F21B3E1D0004CD964"
-               BuildableName = "DRGlyphLabel_Carthage.framework"
-               BlueprintName = "DRGlyphLabel-Carthage"
-               ReferencedContainer = "container:DRGlyphLabel-Carthage.xcodeproj">
+               BuildableName = "DRGlyphLabel_IOS.framework"
+               BlueprintName = "DRGlyphLabel-IOS"
+               ReferencedContainer = "container:DRGlyphLabel-IOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D275244F21B3E1D0004CD964"
-            BuildableName = "DRGlyphLabel_Carthage.framework"
-            BlueprintName = "DRGlyphLabel-Carthage"
-            ReferencedContainer = "container:DRGlyphLabel-Carthage.xcodeproj">
+            BuildableName = "DRGlyphLabel_IOS.framework"
+            BlueprintName = "DRGlyphLabel-IOS"
+            ReferencedContainer = "container:DRGlyphLabel-IOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D275244F21B3E1D0004CD964"
-            BuildableName = "DRGlyphLabel_Carthage.framework"
-            BlueprintName = "DRGlyphLabel-Carthage"
-            ReferencedContainer = "container:DRGlyphLabel-Carthage.xcodeproj">
+            BuildableName = "DRGlyphLabel_IOS.framework"
+            BlueprintName = "DRGlyphLabel-IOS"
+            ReferencedContainer = "container:DRGlyphLabel-IOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
