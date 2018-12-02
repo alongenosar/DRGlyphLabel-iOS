@@ -40,9 +40,7 @@
 	[self renderText];
 }
 
-- (void)renderText
-{
-    CGFloat accumulatedWidth = 0;
+- (void)renderText {
     unichar lastCharId = 0;
 	CGSize size = CGSizeZero;
     CGPoint pos = CGPointZero;

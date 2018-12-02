@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <CoreGraphics/CGBase.h>
+#import <UIKit/UIKit.h>
 /**
  *  DRGlyphFontChar - bitmap font character representation
  */
